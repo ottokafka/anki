@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/anki/static/css/main.95872c97.chunk.css",
+    "main.css": "/anki/static/css/main.b77604b3.chunk.css",
     "main.js": "/anki/static/js/main.8d16b9d5.chunk.js",
     "main.js.map": "/anki/static/js/main.8d16b9d5.chunk.js.map",
     "runtime-main.js": "/anki/static/js/runtime-main.c8787091.js",
@@ -8,15 +8,15 @@
     "static/js/2.ac605257.chunk.js": "/anki/static/js/2.ac605257.chunk.js",
     "static/js/2.ac605257.chunk.js.map": "/anki/static/js/2.ac605257.chunk.js.map",
     "index.html": "/anki/index.html",
-    "precache-manifest.364cb91c37251d4f609d8ad2a3081ab0.js": "/anki/precache-manifest.364cb91c37251d4f609d8ad2a3081ab0.js",
+    "precache-manifest.93d4bc2436e717c2948753e778b14012.js": "/anki/precache-manifest.93d4bc2436e717c2948753e778b14012.js",
     "service-worker.js": "/anki/service-worker.js",
-    "static/css/main.95872c97.chunk.css.map": "/anki/static/css/main.95872c97.chunk.css.map",
+    "static/css/main.b77604b3.chunk.css.map": "/anki/static/css/main.b77604b3.chunk.css.map",
     "static/js/2.ac605257.chunk.js.LICENSE": "/anki/static/js/2.ac605257.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.c8787091.js",
     "static/js/2.ac605257.chunk.js",
-    "static/css/main.95872c97.chunk.css",
+    "static/css/main.b77604b3.chunk.css",
     "static/js/main.8d16b9d5.chunk.js"
   ]
 }
