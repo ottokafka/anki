@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83d59f0fbcd04158d64fe081becb0db1",
+    "revision": "f8a6c4abba9abccf39dea39a8006e966",
     "url": "/anki/index.html"
   },
   {
-    "revision": "f1e836147603f16d1fd5",
-    "url": "/anki/static/css/main.b77604b3.chunk.css"
+    "revision": "309c257ba07ffc23e43d",
+    "url": "/anki/static/css/main.b28ad6bc.chunk.css"
   },
   {
     "revision": "8c1dfcfba3340da13510",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anki/static/js/2.ac605257.chunk.js.LICENSE"
   },
   {
-    "revision": "f1e836147603f16d1fd5",
+    "revision": "309c257ba07ffc23e43d",
     "url": "/anki/static/js/main.8d16b9d5.chunk.js"
   },
   {
