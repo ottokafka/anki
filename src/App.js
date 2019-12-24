@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 var pinyin = require("chinese-to-pinyin");
 
 // -------ANKI sound starts here--------------------
@@ -234,16 +235,26 @@ function AnkiSound(pinyinStr) {
 function App() {
   const [firstPinyin, setPinyin] = useState("");
   const [endPinyin, setEndPinyin] = useState("");
+  const [copy, setCopy] = useState("");
 
   return (
     <div className="top center">
       <input
+        className="font"
         placeholder="Chinese"
         name="firstPinyin"
         onChange={e => setPinyin(e.target.value)}
       />
 
       <p>{pinyin(firstPinyin)}</p>
+      <CopyToClipboard
+        text={pinyin(firstPinyin)}
+        onCopy={() => setCopy({ copied: true })}
+      >
+        <button style={{ marginTop: "2rem", backgroundColor: "green" }}>
+          Copy Pinyin clipboard
+        </button>
+      </CopyToClipboard>
       <br />
 
       <button
@@ -255,8 +266,6 @@ function App() {
           ankiPinyinArr = [];
 
           for (let i of myPinyin) {
-            console.log("TCL: App -> i", i);
-
             AnkiSound(i);
           }
 
@@ -267,6 +276,15 @@ function App() {
         Create Anki Sound
       </button>
       <p>{endPinyin}</p>
+
+      <CopyToClipboard
+        text={endPinyin}
+        onCopy={() => setCopy({ copied: true })}
+      >
+        <button style={{ marginTop: "2rem", backgroundColor: "green" }}>
+          Copy Anki clipboard
+        </button>
+      </CopyToClipboard>
     </div>
   );
 }

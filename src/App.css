@@ -1,5 +1,5 @@
 .top {
-  padding-top: 50%;
+  padding-top: 20%;
 }
 
 .center {
@@ -8,4 +8,7 @@
 
 .btn {
   background-color: aqua;
+}
+.font {
+  font-size: large;
 }
