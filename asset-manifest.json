@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anki/static/css/main.6d7995f6.chunk.css",
-    "main.js": "/anki/static/js/main.5de522f9.chunk.js",
-    "main.js.map": "/anki/static/js/main.5de522f9.chunk.js.map",
+    "main.css": "/anki/static/css/main.c44faa72.chunk.css",
+    "main.js": "/anki/static/js/main.b26d398d.chunk.js",
+    "main.js.map": "/anki/static/js/main.b26d398d.chunk.js.map",
     "runtime-main.js": "/anki/static/js/runtime-main.c8787091.js",
     "runtime-main.js.map": "/anki/static/js/runtime-main.c8787091.js.map",
-    "static/js/2.ac605257.chunk.js": "/anki/static/js/2.ac605257.chunk.js",
-    "static/js/2.ac605257.chunk.js.map": "/anki/static/js/2.ac605257.chunk.js.map",
+    "static/js/2.0f10c4af.chunk.js": "/anki/static/js/2.0f10c4af.chunk.js",
+    "static/js/2.0f10c4af.chunk.js.map": "/anki/static/js/2.0f10c4af.chunk.js.map",
     "index.html": "/anki/index.html",
-    "precache-manifest.1b8198215221dd62ca62adece94bcc5a.js": "/anki/precache-manifest.1b8198215221dd62ca62adece94bcc5a.js",
+    "precache-manifest.70b8983ca423708732d901e7f5f3f983.js": "/anki/precache-manifest.70b8983ca423708732d901e7f5f3f983.js",
     "service-worker.js": "/anki/service-worker.js",
-    "static/css/main.6d7995f6.chunk.css.map": "/anki/static/css/main.6d7995f6.chunk.css.map",
-    "static/js/2.ac605257.chunk.js.LICENSE": "/anki/static/js/2.ac605257.chunk.js.LICENSE"
+    "static/css/main.c44faa72.chunk.css.map": "/anki/static/css/main.c44faa72.chunk.css.map",
+    "static/js/2.0f10c4af.chunk.js.LICENSE": "/anki/static/js/2.0f10c4af.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.c8787091.js",
-    "static/js/2.ac605257.chunk.js",
-    "static/css/main.6d7995f6.chunk.css",
-    "static/js/main.5de522f9.chunk.js"
+    "static/js/2.0f10c4af.chunk.js",
+    "static/css/main.c44faa72.chunk.css",
+    "static/js/main.b26d398d.chunk.js"
   ]
 }
