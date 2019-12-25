@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anki/static/css/main.c44faa72.chunk.css",
-    "main.js": "/anki/static/js/main.b26d398d.chunk.js",
-    "main.js.map": "/anki/static/js/main.b26d398d.chunk.js.map",
+    "main.css": "/anki/static/css/main.0ed82bb8.chunk.css",
+    "main.js": "/anki/static/js/main.9b439b5b.chunk.js",
+    "main.js.map": "/anki/static/js/main.9b439b5b.chunk.js.map",
     "runtime-main.js": "/anki/static/js/runtime-main.c8787091.js",
     "runtime-main.js.map": "/anki/static/js/runtime-main.c8787091.js.map",
     "static/js/2.0f10c4af.chunk.js": "/anki/static/js/2.0f10c4af.chunk.js",
     "static/js/2.0f10c4af.chunk.js.map": "/anki/static/js/2.0f10c4af.chunk.js.map",
     "index.html": "/anki/index.html",
-    "precache-manifest.70b8983ca423708732d901e7f5f3f983.js": "/anki/precache-manifest.70b8983ca423708732d901e7f5f3f983.js",
+    "precache-manifest.d4556cbf0a209c676825ea1637a71109.js": "/anki/precache-manifest.d4556cbf0a209c676825ea1637a71109.js",
     "service-worker.js": "/anki/service-worker.js",
-    "static/css/main.c44faa72.chunk.css.map": "/anki/static/css/main.c44faa72.chunk.css.map",
+    "static/css/main.0ed82bb8.chunk.css.map": "/anki/static/css/main.0ed82bb8.chunk.css.map",
     "static/js/2.0f10c4af.chunk.js.LICENSE": "/anki/static/js/2.0f10c4af.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.c8787091.js",
     "static/js/2.0f10c4af.chunk.js",
-    "static/css/main.c44faa72.chunk.css",
-    "static/js/main.b26d398d.chunk.js"
+    "static/css/main.0ed82bb8.chunk.css",
+    "static/js/main.9b439b5b.chunk.js"
   ]
 }

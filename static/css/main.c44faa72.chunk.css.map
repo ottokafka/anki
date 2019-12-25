@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,eACF,CAEA,QACE,iBACF,CAEA,KACE,qBACF,CACA,MACE,eACF","file":"main.c44faa72.chunk.css","sourcesContent":[".top {\n  padding-top: 20%;\n}\n\n.center {\n  text-align: center;\n}\n\n.btn {\n  background-color: aqua;\n}\n.font {\n  font-size: large;\n}\n"]}
