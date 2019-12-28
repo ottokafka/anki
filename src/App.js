@@ -233,34 +233,77 @@ function AnkiSound(pinyinStr) {
 }
 
 function App() {
-  const [firstPinyin, setPinyin] = useState("");
+  const [firstHanzi, setPinyin] = useState("");
   const [endPinyin, setEndPinyin] = useState("");
   const [copy, setCopy] = useState("");
 
   return (
     <div className="top center">
+      <p></p>
+      <p>
+        {endPinyin} {pinyin(firstHanzi)}
+      </p>
       <input
+        style={{
+          padding: "1rem",
+          margin: "1rem",
+          backgroundColor: "whitesmoke"
+        }}
         className="font"
         placeholder="Chinese"
-        name="firstPinyin"
+        name="firstHanzi"
         onChange={e => setPinyin(e.target.value)}
       />
 
-      <p>{pinyin(firstPinyin)}</p>
+      {/* Copy pinyin and hanzi */}
       <CopyToClipboard
-        text={pinyin(firstPinyin)}
+        text={firstHanzi + " " + pinyin(firstHanzi)}
         onCopy={() => setCopy({ copied: true })}
       >
-        <button style={{ marginTop: "2rem", backgroundColor: "green" }}>
-          Copy Pinyin clipboard
+        <button
+          className="btn"
+          style={{ margin: "1rem", backgroundColor: "gold", color: "black" }}
+        >
+          Copy Pinyin & Hanzi
         </button>
       </CopyToClipboard>
+
+      <div>
+        {/* Copy pinyin */}
+        <CopyToClipboard
+          text={pinyin(firstHanzi)}
+          onCopy={() => setCopy({ copied: true })}
+        >
+          <button
+            className="btn"
+            style={{ margin: "1rem", backgroundColor: "black", padding: 5 }}
+          >
+            C Pinyin
+          </button>
+        </CopyToClipboard>
+
+        {/* Copy Hanzi */}
+        <CopyToClipboard
+          text={firstHanzi}
+          onCopy={() => setCopy({ copied: true })}
+        >
+          <button
+            className="btn"
+            style={{ backgroundColor: "grey", padding: 3 }}
+          >
+            Cp Hanzi🇨🇳
+          </button>
+        </CopyToClipboard>
+      </div>
+
       <br />
+
+      <div></div>
 
       <button
         className="btn"
         onClick={() => {
-          let myPinyin = pinyin(firstPinyin);
+          let myPinyin = pinyin(firstHanzi);
           myPinyin = myPinyin.split(" ");
           // This is empties the array - keep this
           ankiPinyinArr = [];
@@ -275,14 +318,17 @@ function App() {
       >
         Create Anki Sound
       </button>
-      <p>{endPinyin}</p>
 
+      {/* Copy the anki sound */}
       <CopyToClipboard
         text={endPinyin}
         onCopy={() => setCopy({ copied: true })}
       >
-        <button style={{ marginTop: "2rem", backgroundColor: "green" }}>
-          Copy Anki clipboard
+        <button
+          className="btn"
+          style={{ margin: "1rem", backgroundColor: "blue" }}
+        >
+          Copy AnkiSound
         </button>
       </CopyToClipboard>
     </div>
